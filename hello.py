@@ -1,6 +1,7 @@
-def say_hello():
-	print "Hello!"
+class Greeter:
+	def run(self):
+		print "Hello!"
 
 if __name__ == "__main__":
-	say_hello()
+	Greeter().run()
 
